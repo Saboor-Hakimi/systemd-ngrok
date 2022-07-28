@@ -1,9 +1,6 @@
 version: "2"
 authtoken: <add_your_token_here>
 tunnels:
-    web:
-        proto: http
-        addr: 80
     ssh:
         proto: tcp
         addr: 22
